@@ -4,7 +4,9 @@ This PetsApp is a prototype for an Android 101 Workshop, based on the Mobile Pra
 
 For this Android Application the design can found [here](https://www.figma.com/file/YhKiLE6rLGGVK6rCalLQqL/Pets-App-Android-101?node-id=0%3A1).
 
-![Login](screenshots/ss_login.png =100x) ![List](screenshots/ss_list.png =100x) ![Login](screenshots/ss_details.png =100x)
+<img src="screenshots/ss_login.png" alt="Login" width="100"/>
+
+![List](screenshots/ss_list.png =100x) ![Details](screenshots/ss_details.png =100x)
 
 More Resources of the Mobile Learning Paths can be found on [here](https://github.com/gorillalogic/mobile-practice/tree/master/learning-paths).
 
