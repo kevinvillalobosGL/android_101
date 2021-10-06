@@ -7,4 +7,16 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="error_login">Please verify your credentials!</string>
+
+    <!-- Home -->
+    <string name="home_title">Pets</string>
+
+    <!-- Pet Item -->
+    <string name="desc_pet_image">Pet Image</string>
+
+    <plurals name="pet_plural_format">
+        <item quantity="one">%1$s, %2$d year</item>
+        <item quantity="other">%1$s, %2$d years</item>
+    </plurals>
+
 </resources>

@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.gl.app.pet.R
-import com.gl.app.pet.ui.home.MainActivity
+import com.gl.app.pet.ui.main.MainActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 

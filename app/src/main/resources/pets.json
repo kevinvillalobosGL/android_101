@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Charlie",
+    "breed": "Beagle",
+    "sex": "Female",
+    "age": 1,
+    "color": "\"Make a Payment\" has been renamed to \"Payments and Balances\"",
+    "weight": 40,
+    "description": "She's a very friendly dog, well-socialized to other dogs and humans by her breeder, and she would drag us to greet every human and dog she met.",
+    "pet_image": "https://learning-challenge.herokuapp.com/images/pet-1.jpg",
+    "vaccines": [
+      "6-8 weeks",
+      "10-12 weeks",
+      "14-16 weeks"
+    ],
+    "owner": {
+      "name": "Haroon Webster",
+      "phone": "970-288-1530",
+      "email": "h.webster@gl.com",
+      "address": "Colorado, Boulder"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Aurora",
+    "breed": "French Bulldog",
+    "sex": "Female",
+    "age": 7,
+    "color": "Brown",
+    "weight": 53,
+    "description": "She's a very friendly dog, well-socialized to other dogs and humans by her breeder, and she would drag us to greet every human and dog she met.",
+    "pet_image": "https://learning-challenge.herokuapp.com/images/pet-2.jpg",
+    "vaccines": [
+      "6-8 weeks",
+      "10-12 weeks"
+    ],
+    "owner": {
+      "name": "Sherry Raymond",
+      "phone": "170-536-1054",
+      "email": "s.raymond@gl.com",
+      "address": "Colorado, Aspen"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Baloo",
+    "breed": "Golden Retriever",
+    "sex": "Male",
+    "age": 4,
+    "color": "Brown",
+    "weight": 64,
+    "description": "He's a very friendly dog, well-socialized to other dogs and humans by her breeder, and she would drag us to greet every human and dog she met.",
+    "pet_image": "https://learning-challenge.herokuapp.com/images/pet-3.jpg",
+    "vaccines": [
+      "6-8 weeks"
+    ],
+    "owner": {
+      "name": "Vikki Maguire",
+      "phone": "410-978-2319",
+      "email": "v.maguire@gl.com",
+      "address": "Colorado, Denver"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Max",
+    "breed": "Pug",
+    "sex": "Male",
+    "age": 6,
+    "color": "White and Black",
+    "weight": 34,
+    "description": "He's a very friendly dog, well-socialized to other dogs and humans by her breeder, and she would drag us to greet every human and dog she met.",
+    "pet_image": "https://learning-challenge.herokuapp.com/images/pet-4.jpg",
+    "vaccines": [
+      "6-8 weeks",
+      "10-12 weeks",
+      "14-16 weeks"
+    ],
+    "owner": {
+      "name": "Rohan Coates",
+      "phone": "8754-9123-8765",
+      "email": "r.coates@gl.com",
+      "address": "Colorado, Vail"
+    }
+  }
+]
