@@ -7,4 +7,6 @@
     <color name="colorSurface">#FFF</color>
     <color name="colorOnSurface">#201000</color>
     <color name="colorGray">#616161</color>
+
+    <color name="colorInputBox">#1A6C21DF</color>
 </resources>
