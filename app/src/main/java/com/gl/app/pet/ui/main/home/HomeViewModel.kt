@@ -11,7 +11,7 @@ import com.gl.app.pet.data.repository.PetRepositoryImpl
  */
 class HomeViewModel(private val petRepository: PetRepository = PetRepositoryImpl()) : ViewModel() {
 
-    fun getPets(): List<Pet> {
+    suspend fun getPets(): List<Pet> {
         return petRepository.getPets()
     }
 }

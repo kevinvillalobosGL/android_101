@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.gl.app.pet.data.model.Pet
 import com.gl.app.pet.databinding.FragmentDetailsBinding
+import com.squareup.picasso.Picasso
 
 
 class DetailsFragment : Fragment() {
@@ -31,8 +32,13 @@ class DetailsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         // Bind the Pet
-        mBinding.mPet = pet
-        mBinding.executePendingBindings()
+        pet?.let {
+            mBinding.mPet = it
+            mBinding.executePendingBindings()
+
+            // Load the Image
+            Picasso.get().load(it.petImage).into(mBinding.imvPet)
+        }
     }
 
     companion object {

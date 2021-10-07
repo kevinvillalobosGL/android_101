@@ -1,5 +1,6 @@
 package com.gl.app.pet.ui.main.home
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -16,6 +17,7 @@ class HomeItemAdapter(private val callback: (Pet) -> Unit) :
 
     private var petList: List<Pet> = arrayListOf()
 
+    @SuppressLint("NotifyDataSetChanged")
     fun addPets(newPets: List<Pet>) {
         petList = newPets
         notifyDataSetChanged()

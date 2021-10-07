@@ -6,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.gl.app.pet.R
 import com.gl.app.pet.data.model.Pet
 import com.gl.app.pet.databinding.FragmentHomeBinding
 import com.gl.app.pet.ui.main.details.DetailsFragment
+import kotlinx.coroutines.launch
 
 
 class HomeFragment : Fragment() {
@@ -39,7 +41,9 @@ class HomeFragment : Fragment() {
         }
 
         // Get Pets
-        mAdapter.addPets(mViewModel.getPets())
+        viewLifecycleOwner.lifecycleScope.launch {
+            mAdapter.addPets(mViewModel.getPets())
+        }
     }
 
     private fun onPetClick(pet: Pet) {

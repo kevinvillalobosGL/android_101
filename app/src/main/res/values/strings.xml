@@ -19,4 +19,9 @@
         <item quantity="other">%1$s, %2$d years</item>
     </plurals>
 
+
+    <!-- Pet Details -->
+    <string name="pet_color">Color</string>
+    <string name="pet_description">Description</string>
+
 </resources>

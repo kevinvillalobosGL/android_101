@@ -22,6 +22,7 @@ More Resources of the Mobile Learning Paths can be found on [here](https://githu
 * [JetPack Navigation Component](https://developer.android.com/guide/navigation) - Android Jetpack's Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer. The Navigation component also ensures a consistent and predictable user experience by adhering to an established set of principles.
 * [Picasso](https://github.com/square/picasso) - A powerful image downloading and caching library for Android.
 * [GSON](https://github.com/google/gson) - Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object..
+* [Retrofit](https://square.github.io/retrofit/) - Retrofit is a type-safe HTTP client for Android and Java.
 
 ## Resources
 
@@ -36,6 +37,10 @@ More Resources of the Mobile Learning Paths can be found on [here](https://githu
 ### Image Loading
 
 [Picasso](https://square.github.io/picasso/) General Documentation of the Image Loading Library by Square.
+
+### Kotlin coroutines on Android
+
+[More Information](https://developer.android.com/kotlin/coroutines) - A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. 
 
 
 ## Author
