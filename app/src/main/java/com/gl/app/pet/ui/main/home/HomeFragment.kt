@@ -1,6 +1,7 @@
 package com.gl.app.pet.ui.main.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -41,8 +42,12 @@ class HomeFragment : Fragment() {
         }
 
         // Get Pets
-        viewLifecycleOwner.lifecycleScope.launch {
-            mAdapter.addPets(mViewModel.getPets())
+        lifecycleScope.launch {
+            try {
+                mAdapter.addPets(mViewModel.getPets())
+            } catch (e: Exception) {
+                Log.e("PetsApp", "Error: ${e.message}", e)
+            }
         }
     }
 
